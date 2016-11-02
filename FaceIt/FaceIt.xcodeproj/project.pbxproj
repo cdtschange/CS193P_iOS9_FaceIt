@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27AAFEA61DC9B41300149DFD /* BlinkingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFEA51DC9B41300149DFD /* BlinkingFaceViewController.swift */; };
+		27AAFEA81DCA030A00149DFD /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFEA71DCA030A00149DFD /* EyeView.swift */; };
 		27BF63F61DBDD00E000FD106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF63F51DBDD00E000FD106 /* AppDelegate.swift */; };
 		27BF63F81DBDD00E000FD106 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF63F71DBDD00E000FD106 /* FaceViewController.swift */; };
 		27BF63FB1DBDD00E000FD106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BF63F91DBDD00E000FD106 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		27AAFEA51DC9B41300149DFD /* BlinkingFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingFaceViewController.swift; sourceTree = "<group>"; };
+		27AAFEA71DCA030A00149DFD /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		27BF63F21DBDD00E000FD106 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BF63F51DBDD00E000FD106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27BF63F71DBDD00E000FD106 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				27BF63F91DBDD00E000FD106 /* Main.storyboard */,
 				27EB31F31DBF29A8006A2E8D /* EmotionsViewController.swift */,
 				27BF64081DBDD0C3000FD106 /* FaceView.swift */,
+				27AAFEA71DCA030A00149DFD /* EyeView.swift */,
 				27BF640A1DBDDC15000FD106 /* FacialExpression.swift */,
 				27BF64071DBDD022000FD106 /* Supporting Files */,
 			);
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AAFEA81DCA030A00149DFD /* EyeView.swift in Sources */,
 				27BF63F81DBDD00E000FD106 /* FaceViewController.swift in Sources */,
 				27BF640B1DBDDC15000FD106 /* FacialExpression.swift in Sources */,
 				27AAFEA61DC9B41300149DFD /* BlinkingFaceViewController.swift in Sources */,
